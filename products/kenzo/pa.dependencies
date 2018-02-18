@@ -1,38 +1,44 @@
 [
   {
     "remote": "github",
-    "repository": "Pa-Kenzo/android_device_xiaomi_kenzo",
+    "repository": "dinosnore1/device_xiaomi_kenzo",
     "target_path": "device/xiaomi/kenzo",
-    "revision": "nougat-mr2"
+    "revision": "8.1"
   },
   {
     "remote": "github",
-    "repository": "Pa-Kenzo/android_kernel_xiaomi_kenzo",
-    "target_path": "kernel/xiaomi/kenzo",
-    "revision": "nougat-mr2"
+    "repository": "dinosnore1/device_xiaomi_msm8956-common",
+    "target_path": "device/xiaomi/msm8956-common",
+    "revision": "8.1"
   },
   {
     "remote": "github",
-    "repository": "Pa-Kenzo/android_vendor_xiaomi_kenzo",
-    "target_path": "vendor/xiaomi/kenzo",
-    "revision": "nougat-mr2"
+    "repository": "dinosnore1/kernel_xiaomi_msm8956",
+    "target_path": "kernel/xiaomi/msm8956",
+    "revision": "8.1"
   },
   {
     "remote": "github",
-    "repository": "Pa-Kenzo/android_hardware_qcom_audio",
+    "repository": "dinosnore1/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "revision": "8.1"
+  },
+  {
+    "remote": "github",
+    "repository": "nitrogen-project/android_hardware_qcom_audio",
     "target_path": "hardware/qcom/audio",
-    "revision": "nougat-mr2"
+    "revision": "o-8952"
   },
   {
     "remote": "github",
-    "repository": "Pa-Kenzo/android_hardware_qcom_display",
+    "repository": "nitrogen-project/android_hardware_qcom_display",
     "target_path": "hardware/qcom/display",
-    "revision": "nougat-mr2"
+    "revision": "o-8952"
   },
   {
     "remote": "github",
-    "repository": "Pa-Kenzo/android_hardware_qcom_media",
+    "repository": "nitrogen-project/android_hardware_qcom_media",
     "target_path": "hardware/qcom/media",
-    "revision": "nougat-mr2"
+    "revision": "o-8952"
   }
 ]

@@ -28,7 +28,7 @@ TARGET_OTA_ASSERT_DEVICE := kate,kenzo
 include device/qcom/common/common.mk
 
 # Inherit the device configuration itself.
-$(call inherit-product, device/xiaomi/kenzo/aosp_kenzo.mk)
+$(call inherit-product, device/xiaomi/kenzo/pa.mk)
 
 # Inherit the main configuration from our vendor.
 include vendor/pa/main.mk
